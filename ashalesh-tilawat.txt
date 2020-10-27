@@ -162,16 +162,16 @@ codepen link: https://codepen.io/ashtilawat23/pen/eYzROZe?editors=1100
 
     37. Walk me through Lambda's git flow. 
 
-    1) Fork the given version of the repo. 
-    2) After forking, make sure your name is in the repo name.
-        Your name should be listed before the slash. 
-    3) Clone the repo. Clone with HTTPS.
-    4) Copy the link in the menu. 
-    5) Open documents/git/ using Git Bash.
-    6) Use git clone and paste the link you copied. 
-    7) Use cd to move into the new repository. 
-    8) Use git checkout -b 'ashalesh-tilawat' to create your own branch. 
-    9) Use code . to edit the code in VS code. 
-    10) Use git commit to commit the changes you have made. 
-    11) Use git push to push the commits on to Github. 
+        1) Fork the given version of the repo. 
+        2) After forking, make sure your name is in the repo name.
+           Your name should be listed before the slash. 
+        3) Clone the repo. Clone with HTTPS.
+        4) Copy the link in the menu. 
+        5) Open documents/git/ using Git Bash.
+        6) Use git clone and paste the link you copied. 
+        7) Use cd to move into the new repository. 
+        8) Use git checkout -b 'ashalesh-tilawat' to create your own branch. 
+        9) Use code . to edit the code in VS code. 
+        10) Use git commit to commit the changes you have made. 
+        11) Use git push to push the commits on to Github. 
 
