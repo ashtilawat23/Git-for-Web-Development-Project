@@ -1,0 +1,177 @@
+Ashalesh Tilawat 
+codepen link: https://codepen.io/ashtilawat23/pen/eYzROZe?editors=1100
+
+    1. What is Semantic HTML? 
+
+    Helps you give meaning to your code.
+    For example, <article>, <form>, or <table>. 
+    Each describe a specific type of content.
+
+    2. What is HTML used for? 
+
+    HTML is used to structure the bare bones of a webpage.
+    It creates the foundation from which a webpage is constructed.
+
+    3. What is an attribute and where do we put it? 
+
+    Attributes provide additional info about HTML elements.
+    For example, they can tell you where the element is located. 
+    Using href or src, one can describe where an img is. 
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+
+    <h1> is used on the title of the webpage. 
+    It should only be used once to highlight the most important title in a page.
+
+    5. Name two tags that have required attributes
+
+    <img> requires src. External links require hrefs.
+
+    6. What do we put in the head of our HTML document? 
+
+    <header>
+
+    7. What is an id? 
+
+    An attribute that identifies the element and separates it from the rest. 
+    This identifier has to be unique to that element.
+
+    8. What elements can I add an id to? 
+
+    To all elements.
+
+    9. How many times can I use the same id on a page? 
+
+    Once.
+
+    10. What is a class? 
+
+    A class is used to identify a group of elements. 
+    Then you can use the class to call that group of elements in CSS.
+
+    11. What elements can I add a class to? 
+
+    Any element you want. 
+
+    12. How many times can I use the same class on a page? 
+
+    As many times as you want. 
+
+    13. How do I get my link to open in a new tab?
+
+    href=... target="_blank"
+
+    14. What is the alt attribute in the image tag used for? 
+
+    To identify the source of the image.
+
+    15. How do I reference an id?
+
+    #.
+
+    16. What is the difference between a section and a div
+
+    <Section> groups together the elements within it. 
+    It designates a portion of the code as a section. 
+    <Div> has no special meaning, but it can be used to parse the code. 
+
+    17. What is CSS used for? 
+
+    To style the HTML. 
+
+    18. How to we select an element? Example - every h2 on the page
+
+    h2{}
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+
+    An ID helps you pick out one specific element in the sea of code. 
+    Classes identify a group of elements. Can be used to pick out that group of elements from the rest. 
+
+    20. How do we select classes in CSS?
+
+    .class
+
+    21. How do we select a p element with a single class of “human””?
+
+    p.human
+
+    22. What is a parent child selector? When would this be useful? 
+
+    parent element > child element {}
+    This helps you focus on specific elements in a group of elements. 
+
+    23. How do you select all links within a div with the class of sidebar?
+
+    #sidebar a:link{}
+
+    24. What is a pseudo selector?
+
+    Lets to add style based on external factors. For example, hover. 
+
+    25. What do we use the change the spacing between lines?
+
+    line-height
+
+    26. What do we use to change the spacing between letters?
+
+    letter-spacing
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+
+    text-transform
+
+    28. How do I add a 1px border around my div that is dotted and black?
+
+    div{ border 1px dotted black;
+    }
+
+    29. How do I select everything on the page? 
+
+    *, universal selector
+
+    30. How do I write a comment in CSS?
+
+    */
+
+    31. How do I find out what file I am in, when I am using the command line? 
+
+    pwd
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+
+    ls
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+
+    rm; you have to be careful not to delete the master, as it does not go to a recycle bin. 
+    Using this command, the file would get deleted forever. 
+
+    34. Why should I use version control? 
+
+    To maintain a master that can still be running. Using different versions, others can collaborate with you. 
+    You can have other critique your version and share it so others can make changes. 
+
+    35. How often should I commit to github?
+
+    After any significant edits. 
+
+    36. What is the command we would use to push our repo up to github? 
+
+    git push -u origin ashalesh-tilawat
+
+    37. Walk me through Lambda's git flow. 
+
+        1) Fork the given version of the repo. 
+        2) After forking, make sure your name is in the repo name.
+           Your name should be listed before the slash. 
+        3) Clone the repo. Clone with HTTPS.
+        4) Copy the link in the menu. 
+        5) Open documents/git/ using Git Bash.
+        6) Use git clone and paste the link you copied. 
+        7) Use cd to move into the new repository. 
+        8) Use git checkout -b 'ashalesh-tilawat' to create your own branch. 
+        9) Use code . to edit the code in VS code. 
+        10) Use git commit to commit the changes you have made. 
+        11) Use git push to push the commits on to Github. 
+
